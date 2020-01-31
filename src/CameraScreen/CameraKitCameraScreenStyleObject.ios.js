@@ -1,10 +1,10 @@
 export default {
   bottomButtons: {
     flex: 2,
-    flexDirection: "row",
-    justifyContent: "space-between",
-    padding: 14
-  }
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    padding: 14,
+  },
   //   bottomContainerGap: {
   //     flex: 1,
   //     flexDirection: 'row',

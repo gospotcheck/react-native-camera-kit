@@ -1,13 +1,13 @@
-import { Dimensions } from "react-native";
-const { width, height } = Dimensions.get("window");
+import { Dimensions } from 'react-native';
+const { width, height } = Dimensions.get('window');
 
 export default {
   cameraContainer: {
-    position: "absolute",
+    position: 'absolute',
     top: 0,
     left: 0,
     width,
-    height
+    height,
   },
   // bottomButtons: {
   //     flex: 2,
@@ -18,12 +18,12 @@ export default {
   // },
   bottomButtons: {
     flex: 2,
-    flexDirection: "row",
-    justifyContent: "space-between",
-    padding: 14
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    padding: 14,
   },
   gap: {
     flex: 10,
-    flexDirection: "column"
-  }
+    flexDirection: 'column',
+  },
 };
